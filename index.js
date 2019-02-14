@@ -29,6 +29,6 @@ function removeFirstKitten(name){
   return moreKittens
 }
 function prependKitten(name) {
-  const moreKittens = .concat(kittens)
+  const moreKittens = [name].concat(kittens)
   return moreKittens
 }
